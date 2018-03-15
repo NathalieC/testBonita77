@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<accessControlModel xmlns="http://documentation.bonitasoft.com/bdm-access-control-xml-schema/1.0">
+    <businessObjectRule businessObjectQualifiedName="com.company.model.BusinessObject1">
+        <rule name="myRule" usingDynamicProfiles="false">
+            <condition></condition>
+            <staticProfiles>
+                <profile>Process manager</profile>
+            </staticProfiles>
+            <dynamicProfiles></dynamicProfiles>
+            <attributes businessObjectQualifiedName="com.company.model.BusinessObject1">
+                <attribute name="attribute2"/>
+            </attributes>
+        </rule>
+    </businessObjectRule>
+    <businessObjectRule businessObjectQualifiedName="com.company.model.BusinessObject2"/>
+</accessControlModel>
